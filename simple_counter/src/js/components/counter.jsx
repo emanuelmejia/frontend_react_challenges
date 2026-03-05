@@ -10,7 +10,7 @@ function SimpleCounter({
 }) {
   return (
     <div className="countBlock bg-dark text-center text-info px-5 py-3">
-      <div className="digit bg-info text-dark m-3 p-5 d-inline-block">
+      <div className="icon bg-info text-dark m-3 p-5 d-inline-block">
         <i className="far fa-clock"></i>
       </div>
       <div className="digit bg-black m-3 p-5 d-inline-block fw-semibold">

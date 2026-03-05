@@ -2,9 +2,13 @@ body {
   background-color: black;
   height: 100vh;
   display: flex;
-  font-size: 100px;
+  font-size: 7em;
 }
 
 #root {
   margin: auto;
+}
+
+.digit {
+  width: 8vw;
 }
