@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  font-size: 100px;
+}
+
+#root {
+  margin: auto;
+}
