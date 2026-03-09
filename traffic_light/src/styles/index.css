@@ -1,0 +1,92 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(102, 232, 255, 0.886),
+    rgb(255, 255, 255)
+  );
+  height: 100vh;
+  display: flex;
+}
+
+/* Base de los círculos */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.9;
+}
+
+/* Círculo right */
+.blob-1 {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(135deg, #003610, #50f016);
+  bottom: -100px;
+  right: -150px;
+}
+
+/* Círculo left */
+.blob-2 {
+  width: 360px;
+  height: 360px;
+  background: linear-gradient(135deg, #003610, #50f016);
+  bottom: -100px;
+  left: 30px;
+}
+
+/* Círculo bottom */
+.blob-3 {
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(135deg, #50f016, #003610);
+  bottom: -100px;
+  left: 40%;
+}
+
+#root {
+  margin-inline: auto;
+}
+
+.hanger {
+  background-color: rgb(14, 40, 14);
+  width: 3vw;
+  height: 15vh;
+}
+
+.lightBox {
+  background-color: rgb(14, 40, 14);
+  width: 20vw;
+  height: 70vh;
+  border-radius: 20px;
+}
+
+.light {
+  display: block;
+  width: 65%;
+  height: 30%;
+  border-radius: 50%;
+}
+
+.red.redOn {
+  box-shadow: #ff968a 0rem 0rem 5rem 5rem;
+}
+
+.yellow.yellowOn {
+  box-shadow: #ffe68a 0rem 0rem 5rem 5rem;
+}
+
+.green.greenOn {
+  box-shadow: #8aff9c 0rem 0rem 5rem 5rem;
+}
+
+.iRed.redOn {
+  color: #ffc2bb;
+}
+
+.iYellow.yellowOn {
+  color: #faebb5;
+}
+
+.iGreen.greenOn {
+  color: #c2ffcb;
+}
