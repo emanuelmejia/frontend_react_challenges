@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rouge+Script&display=swap);
+
+body {
+  background-image: linear-gradient(to bottom, #ff968a, #ffffff);
+  height: 100vh;
+  display: flex;
+}
+
+#root {
+  margin-inline: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.toDoTitle {
+  color: #ffffff;
+  font-size: 6em;
+  font-weight: 300;
+}
+
+.taskInput {
+  border: none;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.toDoItem button {
+  border: none;
+  background-color: white;
+}
+
+.deleteButton {
+  visibility: hidden; /* Hide the link by default */
+  opacity: 0; /* Optional: adds a fade effect */
+  transition: opacity 0.3s ease; /* Optional: smooth transition */
+}
+
+.toDoItem:hover button {
+  visibility: visible; /* Show the link when the div is hovered */
+  opacity: 1; /* Optional: makes the link fully visible */
+}
